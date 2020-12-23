@@ -11,6 +11,7 @@ Explota todos los globos, y cuando lo hagas muestra un mensaje de enhorabuena.
 2. Asocia a cada uno de los elementos HTML recuperados un listener con el evento [mouseover](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener). Comprueba que al pasar el ratón por cualquier globo, muestras algún mensaje por consola.
 4. Cada vez que pases el ratón por encima de un globo, debes modificar el elemento HTML que ha disparado el evento para que muestre "POP!" en vez del globo. No te compliques: solo es necesario modificar un par de propiedades de los estilos.
 5. Actualiza el estado de la aplicación cada vez que "explotes" un globo; y verifica si ya los has explotado todos. En tal caso, muestra el DIV del HTML que tiene por id "yay-no-balloons".
+**IMPORTANTE**: Una vez hemos explotado un globo, es muy importante [**eliminar el event listener**](https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener) de dicho elemento. Tenéis que usar la propiedad event.currentTarget; pues ese es el elemento sobre el cual tenéis que aplicar el método removeEventListener.
 
 # BONUS
 1. Implementa un contador que te diga cuantos globos quedan por explotar.
