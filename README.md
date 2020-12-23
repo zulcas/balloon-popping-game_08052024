@@ -14,8 +14,8 @@ Explota todos los globos, y cuando lo hagas muestra un mensaje de enhorabuena.
 **IMPORTANTE**: Una vez hemos explotado un globo, es muy importante [**eliminar el event listener**](https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener) de dicho elemento. Tenéis que usar la propiedad event.currentTarget; pues ese es el elemento sobre el cual tenéis que aplicar el método removeEventListener.
 
 # BONUS
-1. Implementa un contador que te diga cuantos globos quedan por explotar.
+1. Implementa un contador que te diga cuantos globos quedan por explotar (que se vea en la página Web).
 2. Implementa un botón de **reset** que reinicie el estado de todos los globos a inflado. NO se puede recargar la página!
-3. Implementa una funcionalidad __inflar__, que permita, al hacer **doble click** en un "POP!", volver a inflar el globo. Actualiza el contador! 
+3. Implementa una funcionalidad __inflar__, que permita, al hacer **doble click** en un "POP!", volver a inflar el globo. ¡Actualiza el contador! 
 
 Mira como ha resuelto el autor el proyecto para comparar soluciones, ya que lo aborda de manera totalmente distinta.
