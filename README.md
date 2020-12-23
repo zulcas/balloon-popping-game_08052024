@@ -19,3 +19,7 @@ Explota todos los globos, y cuando lo hagas muestra un mensaje de enhorabuena.
 3. Implementa una funcionalidad __inflar__, que permita, al hacer **doble click** en un "POP!", volver a inflar el globo. ¡Actualiza el contador! 
 
 Mira como ha resuelto el autor el proyecto para comparar soluciones, ya que lo aborda de manera totalmente distinta.
+
+# SOLUCION
+
+[Solución con BONUS de Marc](https://github.com/mbellydo/balloon-popping-game.git)
