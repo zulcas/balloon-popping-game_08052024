@@ -1,6 +1,6 @@
 # CONTANDO POPS!
 
-Explota todos los 
+Explota todos los globos, y cuando lo hagas muestra un mensaje de enhorabuena.
 
 [Demo](https://js-beginners.github.io/balloon-popping-game/)
 
@@ -16,3 +16,5 @@ Explota todos los
 1. Implementa un contador que te diga cuantos globos quedan por explotar.
 2. Implementa un botón de **reset** que reinicie el estado de todos los globos a inflado. NO se puede recargar la página!
 3. Implementa una funcionalidad __inflar__, que permita, al hacer **doble click** en un "POP!", volver a inflar el globo. Actualiza el contador! 
+
+Mira como ha resuelto el autor el proyecto para comparar soluciones, ya que lo aborda de manera totalmente distinta.
