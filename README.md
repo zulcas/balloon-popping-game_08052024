@@ -2,7 +2,7 @@
 
 Explota todos los globos, y cuando lo hagas muestra un mensaje de enhorabuena.
 
-[Demo](https://js-beginners.github.io/balloon-popping-game/)
+[Demo](https://omiras.github.io/balloon-popping-game/)
 
 # PASOS A SEGUIR
 
