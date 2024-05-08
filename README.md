@@ -7,7 +7,7 @@ Explota todos los globos, y cuando lo hagas muestra un mensaje de enhorabuena.
 # PASOS A SEGUIR
 
 0. Piensa como vas a mantener el estado de la aplicación. Es decir, como controlar cuantos globos han explotado, y cómo vas a considerar que el juego ha acabado.
-1. Recupera todos los elementos HTML que representan globos con querySelectorAll
+1. Recupera todos los elementos HTML que representan globos con querySelectorAll, o asocia un listener a 
 2. Asocia a cada uno de los elementos HTML recuperados un listener con el evento [mouseover](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener). Comprueba que al pasar el ratón por cualquier globo, muestras algún mensaje por consola.
 4. Cada vez que pases el ratón por encima de un globo, debes modificar el elemento HTML que ha disparado el evento para que muestre "POP!" en vez del globo. No te compliques: solo es necesario modificar un par de propiedades de los estilos.
 5. Actualiza el estado de la aplicación cada vez que "explotes" un globo; y verifica si ya los has explotado todos. En tal caso, muestra el DIV del HTML que tiene por id "yay-no-balloons".
